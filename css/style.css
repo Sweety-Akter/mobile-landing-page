@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body,header, .content{
+    height: 100%;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    /* background-image: url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+}
+header, .content{
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+}
+nav{
+    padding: 20px 15%;
+}
+.brand{
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 15px;
+    float: left;
+}
+nav>ul{
+    list-style-type: none;
+    float: right;
+    padding: 0;
+}
+nav>ul>li{
+    float: left;
+    padding: 10px 15px;
+    transition: .3s;
+}
+nav>ul>li:hover{
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+a{
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+a:hover{
+    background-color: #fff;
+    color: black;
+}
+.clear{
+    clear: both;
+}
+.left{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 36%;
+    left: 8%;
+}
+.right{
+    width: 50%;
+    position: absolute;
+    right: 0;
+    /* top: 200px; */
+    bottom: 60px;
+}
+.right>img{
+    width: 100%;
+}
+a,nav>ul>li, p{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+p{
+    font-weight: lighter;
+    line-height: 20px;
+    text-align: justify;
+    margin-top: 20px;
+}
+.social-icons{
+    position: absolute;
+    top: 30%;
+    left: 20px;
+    width: 35px;
+}
+.social-icons ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.social-icons ul li{
+    margin-top: 10px;
+}
+.social-icons ul li i{
+    padding: 10px;
+}
+.social-icons ul li i:hover{
+    color: black;
+}
+.background{
+    position: absolute;
+    height: 100%;
+    width: 150%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #27d5e6 0%,  #27d5e6 50%, #7ed6df 70%);
+    transform: rotateZ(-8deg);
+    transform-origin: bottom left;
+    box-shadow: 0 0 10px #000;
+}
